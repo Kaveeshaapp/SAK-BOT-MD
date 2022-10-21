@@ -172,10 +172,10 @@ return dDisplay + hDisplay + mDisplay + sDisplay;
 
 
 const reply = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "SAK BOT MD",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, detectLinks: true,body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 const replay = (teks) => {
-    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "ZIM BOT V4",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
+    ZimBotInc.sendMessage(m.chat, {text: teks, contextInfo: {"externalAdReply": {title: "SAK BOT MD",mediaType: 3, renderLargerThumbnail: false, showAdAttribution: true, body: "DRIPS OFC", thumbnail: fs.readFileSync('./drips.jpg'),sourceUrl: ("https://youtu.be/KNu-gr2h7bo")}}})
 }
 
 const drip =  {
@@ -188,11 +188,11 @@ participant : '0@s.whatsapp.net'
     isForwarded: false, // ini biar ada tulisannya diteruskan berkali-kali, jika ingin di hilangkan ganti true menjadi false
  // Bagian ini sesuka kalian berkreasi :'v
 showAdAttribution: true,
-title: "ZIM BOT V4",
+title: "⚜️SAK BOT MD⚜️",
 body: "GIVE IT A STAR",
 mediaType: "VIDEO",
-mediaUrl: `https://githb.com/zim-bot/zimbot-v4`,
-description: 'DRIPS OFC',
+mediaUrl: `https://github.com/nimaofficial/SAK-BOT-MD`,
+description: 'HELA CLOUD',
 previewType: "PHOTO",
 thumbnail: fs.readFileSync('./drips.jpg'),
 sourceUrl: "",
@@ -209,7 +209,7 @@ participant : '0@s.whatsapp.net'
   message: {
   documentMessage: {
 showAdAttribution: true,
-  title: "ZIM BOT V4", 
+  title: "SAK BOT MD", 
   jpegThumbnail: fs.readFileSync('./drips.jpg')
 }
 }
@@ -224,8 +224,8 @@ showAdAttribution: true,
                },
     message: { 
        "extendedTextMessage": {
-                "text":'SUB DRIPS OFC',
-                "title": 'ZIM BOT-V4',
+                "text":'SUBESCRIBE HELA CLOUD',
+                "title": '⚜️SAK BOT MD⚜️',
                 'jpegThumbnail': fs.readFileSync('./drips.jpg')
              }
            } 
@@ -500,7 +500,7 @@ var DADYDR = `
 
  ┌───〔 *_ᴛʜᴀɴᴋs ᴛᴏ_* 〕
  ┊ʏᴏᴜʀ ᴄʀᴇᴅɪᴛꜱ
- └───〔 *_ᴢɪᴍ ʙᴏᴛ ɪɴᴄ_* 〕
+ └───〔 *⚜️SAK BOT MD⚜️* 〕
  `
 let message = await prepareWAMessageMedia({ image: bufu, jpegThumbnail:bufu }, { upload: ZimBotInc.waUploadToServer })
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -508,11 +508,11 @@ templateMessage: {
 hydratedTemplate: {
 imageMessage: message.imageMessage,
 hydratedContentText: DADYDR,
-hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+hydratedFooterText: `RPG GAME BY SAK BOT MD`,
 hydratedButtons:  [{        
     "urlButton": {
       "displayText": "SUBSCRIBE",
-      "url": "https://www.youtube.com/c/DRIPSOFC"
+      "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
     }
 }, {
 quickReplyButton: {
@@ -561,11 +561,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
   hydratedTemplate: {
   imageMessage: message.imageMessage,
   hydratedContentText: hg,
-  hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+  hydratedFooterText: `RPG GAME BY SAK BOT MD`,
   hydratedButtons:  [{        
       "urlButton": {
         "displayText": "SUBSCRIBE",
-        "url": "https://www.youtube.com/c/DRIPSOFC"
+        "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
       }
   }, {
   quickReplyButton: {
@@ -610,11 +610,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
           hydratedTemplate: {
           imageMessage: message.imageMessage,
           hydratedContentText: hg,
-          hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+          hydratedFooterText: `RPG GAME BY SAK BOT MD`,
           hydratedButtons:  [{        
               "urlButton": {
                 "displayText": "SUBSCRIBE",
-                "url": "https://www.youtube.com/c/DRIPSOFC"
+                "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
               }
           }, {
           quickReplyButton: {
@@ -659,11 +659,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+            hydratedFooterText: `RPG GAME BY SAK BOT MD`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
                 }
             }, {
             quickReplyButton: {
@@ -708,11 +708,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+            hydratedFooterText: `RPG GAME BY SAK BOT MD`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
                 }
             }, {
             quickReplyButton: {
@@ -762,7 +762,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
               }
             }, {
               quickReplyButton: {
@@ -813,7 +813,7 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
               hydratedButtons: [{        
               "urlButton": {
               "displayText": "SUBSCRIBE",
-              "url": "https://www.youtube.com/c/DRIPSOFC"
+              "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
               }
             }, {
               quickReplyButton: {
@@ -855,11 +855,11 @@ ZimBotInc.relayMessage(m.chat, template.message, { messageId: template.key.id })
             hydratedTemplate: {
             imageMessage: message.imageMessage,
             hydratedContentText: hg,
-            hydratedFooterText: `ʀᴘɢ ɢᴀᴍᴇ ʙʏ ᴢɪᴍʙᴏᴛ`,
+            hydratedFooterText: `RPG GAME BY SAK BOT MD`,
             hydratedButtons:  [{        
                 "urlButton": {
                   "displayText": "SUBSCRIBE",
-                  "url": "https://www.youtube.com/c/DRIPSOFC"
+                  "url": "https://www.youtube.com/channel/UCYEKB_cqPyl2yKW21nknGfw"
                 }
             }, {
             quickReplyButton: {
@@ -900,7 +900,7 @@ var _0x33fa3e=_0x465d;function _0x2a31(){var _0x124451=['reply','1109740LfSEyY',
 if (db.chats[m.chat].antilink) {
 if (budy.includes('https://chat.whatsapp.com/')) {
 if (!m.key.fromMe) {
-reply('[ 𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞 ]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
+reply('[ SAK BOT MD 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞 ]\n𝗟𝗶𝗻𝗸 𝗻𝗼𝘁 𝗮𝗹𝗹𝗼𝘄𝗲𝗱 𝗵𝗲𝗿𝗲, 𝗢𝗞𝘆?..,\n𝗚𝗼𝗼𝗱 𝗯𝘆𝗲 𝗜𝗺 𝗸𝗶𝗰𝗸𝗶𝗻𝗴 𝘂𝗿 𝗮𝘀𝘀 𝗻𝗼𝘄👋🏻')
 let sianj = m.sender
 await ZimBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) => reply(jsonformat(res))).catch((err) => reply(jsonformat(err)))
 }
@@ -908,7 +908,7 @@ await ZimBotInc.groupParticipantsUpdate(m.chat, [sianj], 'remove').then((res) =>
 }
 if (db.chats[m.chat].wame) {
 if (budy.match(`wa.me/`)) {
-reply(`「 𝗭𝗜𝗠 𝗕𝗢𝗧 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞 」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
+reply(`「 SAK BOT MD 𝗔𝗡𝗧𝗜𝗟𝗜𝗡𝗞 」\n\n𝗬𝗼𝘂 𝗵𝗮𝘃𝗲 𝘀𝗲𝗻𝗱 𝘄𝗮.𝗺𝗲 𝗹𝗶𝗻𝗸, 𝗻𝗼 𝘁𝗶𝗺𝗲 𝘁𝗼 𝘄𝗮𝘀𝘁𝗲 𝘂𝗮 𝗼𝘂𝘁!`)
 if (!isBotAdmins) return reply(`𝘡𝘪𝘮 𝘉𝘰𝘵 𝘮𝘶𝘴𝘵 𝘣𝘦 𝘢𝘥𝘮𝘪𝘯 𝘧𝘪𝘳𝘴𝘵😚`)
 let gclink = (`https://wa.me/`)
 let isLinkThisGc = new RegExp(gclink, 'i')
